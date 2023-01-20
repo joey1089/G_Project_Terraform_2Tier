@@ -1,6 +1,6 @@
 # --- root/main.tf ---
 
-module "network" {
+module "resource_network" {
   source = "./network"
 }
 

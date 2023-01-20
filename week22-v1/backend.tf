@@ -1,9 +1,9 @@
-terraform {
-  cloud {
-    organization = "2Tier-Cloud"
+# terraform {
+#   cloud {
+#     organization = "2Tier-Cloud"
 
-    workspaces {
-      name = "Terraform-2tier"
-    }
-  }
-}
+#     workspaces {
+#       name = "Terraform-2tier"
+#     }
+#   }
+# }

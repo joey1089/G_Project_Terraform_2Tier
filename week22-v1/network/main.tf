@@ -196,3 +196,6 @@ resource "aws_instance" "Instance_03" {
   }
   user_data = file("./network/user-data.sh")
 }
+
+
+
