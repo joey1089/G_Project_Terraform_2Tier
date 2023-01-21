@@ -18,6 +18,6 @@ output "Instance_Key_name" {
   value = aws_instance.Instance_01.key_name
 }
 
-output "Instance_01_ami" {
-  value = aws_instance.Instance_01.ami
+output "Instance_0_Name" {
+  value = aws_instance.Instance_01.tags.name
 }
