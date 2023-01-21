@@ -169,7 +169,7 @@ resource "aws_instance" "Instance_01" {
   tags = {
     "name" = "web-instance-1"
   }
-  user_data = file("./network/user-data.sh") # workung
+  user_data = file("./network/user-data.sh") # working
 }
 #Create ec2 instance02 in AZ east-1b
 resource "aws_instance" "Instance_02" {

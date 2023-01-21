@@ -5,11 +5,6 @@ output "load_balancer_dns_name" {
   value       = aws_lb.web_alb.dns_name
 }
 
-# output "instance_ip_addr" {
-#   value = aws_instance.server.private_ip
-#   value = aws_instance.instance01
-# }
-
 output "Security_group" {
   value = aws_security_group.web_sg.name
 }
