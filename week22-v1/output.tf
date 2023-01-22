@@ -12,8 +12,8 @@ output "Security_group_Name" {
   value = module.resource_network.Security_group
 }
 
-output "Instance01_AMI-id" {
-  value = module.resource_network.Instance_01_ami
+output "Instance01_Name" {
+  value = module.resource_network.Instance_0_Name
 }
 
 
